@@ -1,0 +1,112 @@
+{
+    "Hospital": [
+        {
+            "node": "Location A",
+            "distance": 1.5,
+            "normal_time": 4
+        },
+        {
+            "node": "Location D",
+            "distance": 2.2,
+            "normal_time": 5
+        }
+    ],
+
+    "Location A": [
+        {
+            "node": "Hospital",
+            "distance": 1.5,
+            "normal_time": 4
+        },
+        {
+            "node": "Location B",
+            "distance": 1.8,
+            "normal_time": 5
+        },
+        {
+            "node": "Location F",
+            "distance": 2.0,
+            "normal_time": 5
+        }
+    ],
+
+    "Location B": [
+        {
+            "node": "Location A",
+            "distance": 1.8,
+            "normal_time": 5
+        },
+        {
+            "node": "Location C",
+            "distance": 1.6,
+            "normal_time": 4
+        },
+        {
+            "node": "Location D",
+            "distance": 2.5,
+            "normal_time": 6
+        }
+    ],
+
+    "Location C": [
+        {
+            "node": "Location B",
+            "distance": 1.6,
+            "normal_time": 4
+        },
+        {
+            "node": "Location D",
+            "distance": 1.4,
+            "normal_time": 4
+        }
+    ],
+
+    "Location D": [
+        {
+            "node": "Hospital",
+            "distance": 2.2,
+            "normal_time": 5
+        },
+        {
+            "node": "Location B",
+            "distance": 2.5,
+            "normal_time": 6
+        },
+        {
+            "node": "Location C",
+            "distance": 1.4,
+            "normal_time": 4
+        },
+        {
+            "node": "Location E",
+            "distance": 1.7,
+            "normal_time": 4
+        }
+    ],
+
+    "Location E": [
+        {
+            "node": "Location D",
+            "distance": 1.7,
+            "normal_time": 4
+        },
+        {
+            "node": "Location F",
+            "distance": 1.5,
+            "normal_time": 4
+        }
+    ],
+
+    "Location F": [
+        {
+            "node": "Location E",
+            "distance": 1.5,
+            "normal_time": 4
+        },
+        {
+            "node": "Location A",
+            "distance": 2.0,
+            "normal_time": 5
+        }
+    ]
+}

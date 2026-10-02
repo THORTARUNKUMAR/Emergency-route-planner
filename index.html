@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Emergency Route Planner</title>
+
+    <!-- Leaflet CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🚑 Emergency Route Planner
+    </div>
+
+    <div class="subtitle">
+        AI-Based Intelligent Route Planning
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- CONTROL PANEL -->
+
+    <section class="control-panel">
+
+        <h2>Find Emergency Route</h2>
+
+        <label>Start Location</label>
+
+        <select id="start">
+
+            <option value="Location A">
+                Location A
+            </option>
+
+            <option value="Location B">
+                Location B
+            </option>
+
+            <option value="Location C">
+                Location C
+            </option>
+
+            <option value="Location D">
+                Location D
+            </option>
+
+            <option value="Location E">
+                Location E
+            </option>
+
+            <option value="Location F">
+                Location F
+            </option>
+
+        </select>
+
+
+        <label>Destination</label>
+
+        <select id="destination">
+
+            <option value="Hospital">
+                Hospital
+            </option>
+
+            <option value="Location A">
+                Location A
+            </option>
+
+            <option value="Location B">
+                Location B
+            </option>
+
+            <option value="Location C">
+                Location C
+            </option>
+
+            <option value="Location D">
+                Location D
+            </option>
+
+        </select>
+
+
+        <label>Algorithm</label>
+
+        <select id="algorithm">
+
+            <option value="astar">
+                A* Search
+            </option>
+
+            <option value="bfs">
+                BFS
+            </option>
+
+            <option value="dfs">
+                DFS
+            </option>
+
+            <option value="greedy">
+                Greedy Best-First
+            </option>
+
+        </select>
+
+
+        <button onclick="findRoute()">
+
+            🚑 Find Route
+
+        </button>
+
+
+        <button
+            class="compare-button"
+            onclick="compareAlgorithms()">
+
+            📊 Compare Algorithms
+
+        </button>
+
+    </section>
+
+
+    <!-- MAP -->
+
+    <section class="map-section">
+
+        <div id="map"></div>
+
+    </section>
+
+
+    <!-- RESULT -->
+
+    <section class="result-section">
+
+        <h2>Route Result</h2>
+
+        <div id="result">
+
+            Select locations and find a route.
+
+        </div>
+
+    </section>
+
+
+    <!-- COMPARISON -->
+
+    <section class="comparison-section">
+
+        <h2>Algorithm Comparison</h2>
+
+        <div id="comparison">
+
+            Click "Compare Algorithms".
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    CSE276 Artificial Intelligence Project
+
+</footer>
+
+
+<!-- Leaflet JS -->
+
+<script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

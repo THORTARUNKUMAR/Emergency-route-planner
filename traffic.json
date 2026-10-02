@@ -1,0 +1,46 @@
+{
+    "Hospital-Location A": {
+        "condition": "Low",
+        "multiplier": 1.0
+    },
+
+    "Hospital-Location D": {
+        "condition": "Medium",
+        "multiplier": 1.2
+    },
+
+    "Location A-Location B": {
+        "condition": "High",
+        "multiplier": 1.5
+    },
+
+    "Location A-Location F": {
+        "condition": "Low",
+        "multiplier": 1.0
+    },
+
+    "Location B-Location C": {
+        "condition": "Low",
+        "multiplier": 1.0
+    },
+
+    "Location B-Location D": {
+        "condition": "Medium",
+        "multiplier": 1.3
+    },
+
+    "Location C-Location D": {
+        "condition": "Heavy",
+        "multiplier": 1.8
+    },
+
+    "Location D-Location E": {
+        "condition": "Low",
+        "multiplier": 1.0
+    },
+
+    "Location E-Location F": {
+        "condition": "Medium",
+        "multiplier": 1.2
+    }
+}

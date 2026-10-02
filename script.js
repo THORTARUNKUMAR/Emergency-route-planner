@@ -1,5 +1,4 @@
-const API_URL = "http://127.0.0.1:5000";
-
+const API_URL = "https://emergency-route-planner-17ut.onrender.com";
 
 // ---------------------------------------------------------
 // MAP
